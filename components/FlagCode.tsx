@@ -121,16 +121,16 @@ export const FlagCode: React.FC = () => {
             <div className="max-w-4xl mx-auto">
 
                 {/* Header */}
-                <div className="text-center mb-16">
+                <div className="mb-16">
                     <div className="inline-flex items-center justify-center p-3 bg-orange-100 rounded-full mb-6">
                         <BookOpen className="text-orange-600" size={32} />
                     </div>
                     <h2 className="text-3xl md:text-5xl font-bold text-stone-900 mb-6 tracking-tight">
                         Indian Flag: Code of Conduct
                     </h2>
-                    <div className="w-24 h-1 bg-gradient-to-r from-orange-500 via-white to-green-500 mx-auto rounded-full mb-8 border border-stone-200"></div>
+                    <div className="w-24 h-1 bg-gradient-to-r from-orange-500 via-white to-green-500 mb-8 border border-stone-200"></div>
 
-                    <p className="text-lg text-stone-600 max-w-2xl mx-auto leading-relaxed">
+                    <p className="text-lg text-stone-700 max-w-2xl leading-relaxed">
                         The Indian flag is governed by the <strong>Flag Code of India, 2002</strong> and the <strong>Prevention of Insults to National Honour Act, 1971</strong>. This section provides schools and citizens with complete guidance on how to properly use, respect, store, and dispose of the Indian flag in line with official rules.
                     </p>
                 </div>
@@ -145,11 +145,11 @@ export const FlagCode: React.FC = () => {
                         <div className="grid md:grid-cols-3 gap-6">
                             <div className="bg-stone-50 p-6 rounded-xl border border-stone-100">
                                 <h4 className="font-bold text-stone-900 mb-3">Official Design</h4>
-                                <p className="text-sm text-stone-600">Three equal horizontal bands: <strong className="text-orange-600">Saffron (top)</strong>, White (middle), and <strong className="text-green-600">Green (bottom)</strong>. Centre has the <strong>Ashoka Chakra</strong> (navy blue wheel with 24 spokes).</p>
+                                <p className="text-sm text-stone-700">Three equal horizontal bands: <strong className="text-orange-600">Saffron (top)</strong>, White (middle), and <strong className="text-green-600">Green (bottom)</strong>. Centre has the <strong>Ashoka Chakra</strong> (navy blue wheel with 24 spokes).</p>
                             </div>
                             <div className="bg-stone-50 p-6 rounded-xl border border-stone-100">
                                 <h4 className="font-bold text-stone-900 mb-3">Correct Ratio</h4>
-                                <p className="text-sm text-stone-600 mb-2">Must follow a <strong>length-to-width ratio of 3:2</strong>.</p>
+                                <p className="text-sm text-stone-700 mb-2">Must follow a <strong>length-to-width ratio of 3:2</strong>.</p>
                                 <ul className="text-xs text-stone-500 list-disc ml-4 space-y-1">
                                     <li>90cm × 60cm (Correct)</li>
                                     <li>60cm × 40cm (Correct)</li>
@@ -157,7 +157,7 @@ export const FlagCode: React.FC = () => {
                             </div>
                             <div className="bg-stone-50 p-6 rounded-xl border border-stone-100">
                                 <h4 className="font-bold text-stone-900 mb-3">Permitted Materials</h4>
-                                <p className="text-sm text-stone-600 mb-2"><strong>Natural or semi-natural fibres</strong>: Cotton, Polyester, Wool, Silk, Khadi.</p>
+                                <p className="text-sm text-stone-700 mb-2"><strong>Natural or semi-natural fibres</strong>: Cotton, Polyester, Wool, Silk, Khadi.</p>
                                 <p className="text-xs text-red-600 font-medium">Do NOT use plastic flags.</p>
                             </div>
                         </div>
@@ -278,7 +278,7 @@ export const FlagCode: React.FC = () => {
                                 "Desecrating the flag with hate speech.",
                                 "Displaying the flag to deliberately reduce its dignity."
                             ].map((item, i) => (
-                                <li key={i} className="flex gap-2 items-start text-orange-900/80 text-sm">
+                                <li key={i} className="flex gap-2 items-start text-orange-950 text-sm">
                                     <span className="mt-1.5 w-1.5 h-1.5 bg-orange-400 rounded-full shrink-0"></span>
                                     {item}
                                 </li>
@@ -292,7 +292,7 @@ export const FlagCode: React.FC = () => {
                             <span className="bg-stone-200 text-stone-700 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">5</span>
                             How to dispose of a damaged flag
                         </h3>
-                        <p className="text-stone-600 mb-6">Dispose only when ripped, soiled, faded, or unfit for display.</p>
+                        <p className="text-stone-700 mb-6">Dispose only when ripped, soiled, faded, or unfit for display.</p>
 
                         <div className="grid md:grid-cols-2 gap-6 mb-8">
                             <div className="group hover:bg-stone-50 transition-colors p-6 rounded-2xl border border-stone-200">
@@ -301,7 +301,7 @@ export const FlagCode: React.FC = () => {
                                 </div>
                                 <h4 className="font-bold text-lg text-stone-900 mb-2">Method 1: Respectful Burning</h4>
                                 <p className="text-xs font-bold text-stone-500 uppercase tracking-wider mb-4">Preferred Method</p>
-                                <ol className="space-y-2 text-sm text-stone-600 list-decimal ml-4">
+                                <ol className="space-y-2 text-sm text-stone-700 list-decimal ml-4">
                                     <li>Fold the damaged flag neatly.</li>
                                     <li>Choose a private, clean, secure location.</li>
                                     <li>Build a fire (don't start it with the flag).</li>
@@ -316,7 +316,7 @@ export const FlagCode: React.FC = () => {
                                 </div>
                                 <h4 className="font-bold text-lg text-stone-900 mb-2">Method 2: Respectful Burial</h4>
                                 <p className="text-xs font-bold text-stone-500 uppercase tracking-wider mb-4">Alternative Method</p>
-                                <ol className="space-y-2 text-sm text-stone-600 list-decimal ml-4">
+                                <ol className="space-y-2 text-sm text-stone-700 list-decimal ml-4">
                                     <li>Fold the damaged flag neatly.</li>
                                     <li>Place in a clean wooden box or cloth container.</li>
                                     <li>Select a clean, private location.</li>
@@ -343,7 +343,7 @@ export const FlagCode: React.FC = () => {
                                         {openIndex === index ? <ChevronUp className="text-blue-600 shrink-0 ml-4" size={18} /> : <ChevronDown className="text-stone-400 shrink-0 ml-4" size={18} />}
                                     </button>
                                     <div className={`overflow-hidden transition-all duration-300 ${openIndex === index ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
-                                        <div className="p-4 pt-0 text-stone-600 text-sm leading-relaxed border-t border-stone-200/50 mt-1">
+                                        <div className="p-4 pt-0 text-stone-700 text-sm leading-relaxed border-t border-stone-200/50 mt-1">
                                             {faq.answer}
                                             <div className="mt-2 text-xs text-stone-400 flex items-center gap-1">
                                                 Source: <a href={faq.link} target="_blank" rel="noreferrer" className="hover:text-blue-600 hover:underline">{faq.source}</a>
@@ -426,7 +426,7 @@ export const FlagCode: React.FC = () => {
                                         <ExternalLink size={14} className="text-stone-300 group-hover:text-blue-400" />
                                     </div>
                                     <h4 className="font-bold text-stone-900 group-hover:text-blue-700 transition-colors mb-1 leading-tight">{ref.title}</h4>
-                                    <p className="text-xs text-stone-500 line-clamp-2">{ref.desc}</p>
+                                    <p className="text-xs text-stone-600 line-clamp-2">{ref.desc}</p>
                                 </a>
                             ))}
                         </div>

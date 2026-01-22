@@ -192,6 +192,30 @@ const App: React.FC = () => {
             </section>
 
             <FlagCode />
+
+            {/* Secondary CTA */}
+            <section className="bg-stone-900 border-t border-stone-800 py-16 px-6 relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-96 h-96 bg-orange-500/10 rounded-full blur-3xl pointer-events-none -translate-y-1/2 translate-x-1/2"></div>
+              <div className="absolute bottom-0 left-0 w-96 h-96 bg-green-500/10 rounded-full blur-3xl pointer-events-none translate-y-1/2 -translate-x-1/2"></div>
+
+              <div className="max-w-4xl mx-auto text-center relative z-10">
+                <h2 className="text-3xl md:text-5xl font-display font-bold text-white mb-6">
+                  Join millions of Indians in this Movement.
+                </h2>
+                <p className="text-stone-400 text-lg mb-10 max-w-2xl mx-auto">
+                  Commit to respect and honour the Tricolour. Your pledge is a promise to the nation.
+                </p>
+                <button
+                  onClick={handleStart}
+                  className="bg-gradient-to-r from-orange-500 via-white to-green-500 p-[2px] rounded-full hover:shadow-[0_0_40px_-5px_rgba(255,165,0,0.6)] transition-all transform hover:-translate-y-1"
+                >
+                  <div className="bg-stone-900 px-8 py-4 rounded-full flex items-center gap-2">
+                    <span className="text-white font-bold text-lg tracking-wide">TAKE THE PLEDGE</span>
+                    <span className="w-8 h-8 rounded-full bg-white text-stone-900 flex items-center justify-center font-bold">→</span>
+                  </div>
+                </button>
+              </div>
+            </section>
           </>
         )}
 
