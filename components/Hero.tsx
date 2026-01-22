@@ -24,7 +24,7 @@ export const Hero: React.FC<HeroProps> = ({ onStart }) => {
           <span className="block text-5xl md:text-8xl text-stone-700 mb-4 tracking-tight font-bold">
             Pledge for
           </span>
-          <div className="flex flex-wrap justify-center gap-x-2 md:gap-x-4 text-7xl md:text-[10rem] font-black tracking-wide leading-none pb-6">
+          <div className="flex justify-center gap-x-2 md:gap-x-4 text-5xl md:text-7xl lg:text-[10rem] font-black tracking-wide leading-none pb-6 whitespace-nowrap">
             <span className="text-transparent bg-clip-text bg-gradient-to-b from-saffron via-white to-indiaGreen animate-gradient">
               My Indian Flag
             </span>
