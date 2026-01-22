@@ -2,12 +2,7 @@ import React, { useState } from 'react';
 import { ChevronDown, ChevronUp, BookOpen, ExternalLink, Check, X, AlertTriangle, Flame, Shovel } from 'lucide-react';
 
 const FAQS = [
-    {
-        question: "Can schools display the Indian flag every day?",
-        answer: "Yes. If a school has a flagpole, it may display the Indian flag every day, provided the flag is in good condition and there is proper lighting if it remains displayed at night.",
-        source: "pw",
-        link: "https://www.pw.live/upsc/exams/flag-code-of-india-2002"
-    },
+
     {
         question: "What should we do if the flag accidentally touches the ground?",
         answer: "Do not panic. Simply pick it up respectfully, check it for damage, and if it is still in good condition, it can continue to be displayed.",
@@ -20,18 +15,7 @@ const FAQS = [
         source: "vajiramandravi",
         link: "https://vajiramandravi.com/current-affairs/flag-code-of-india-2002/"
     },
-    {
-        question: "Who can dispose of a damaged flag?",
-        answer: "Any citizen or school can dispose of a damaged flag respectfully at home or in a school. It is not necessary to contact officials, but the disposal must follow the rules of burning or burial in private.",
-        source: "indiatoday",
-        link: "https://www.indiatoday.in/information/story/lmc-guidelines-on-national-flag-code-how-to-dispose-of-tricolour-properly-1987573-2022-08-13"
-    },
-    {
-        question: "What if we don't have a fire or private space for burning?",
-        answer: "Burial is an acceptable alternative. Place the folded flag in a box and bury it in a clean, private location with respect.",
-        source: "indiatoday",
-        link: "https://www.indiatoday.in/information/story/lmc-guidelines-on-national-flag-code-how-to-dispose-of-tricolour-properly-1987573-2022-08-13"
-    },
+
     {
         question: "Can students take photos with the flag?",
         answer: "Yes, as long as the flag is displayed respectfully and the photos do not mock or insult the flag.",
