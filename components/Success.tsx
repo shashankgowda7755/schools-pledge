@@ -18,6 +18,31 @@ export const Success: React.FC<SuccessProps> = ({ userData, onReset }) => {
   // One-time submission lock
   const hasSubmitted = useRef(false);
 
+  // ========================================
+  // SUBMIT TO GOOGLE SHEETS - ONCE ON MOUNT
+  // ========================================
+  useEffect(() => {
+    if (!hasSubmitted.current && selectedSchool) {
+      hasSubmitted.current = true;
+
+      const studentData = {
+        name: userData.fullName,
+        grade: userData.class,
+        section: userData.section,
+        phone: `${userData.countryCode}-${userData.phone}`,
+        email: userData.email,
+        message: 'I Pledge to honor the National Flag',
+        photoUrl: userData.photo,
+        optIn: userData.optInSimilarEvents
+      };
+
+      // Async submission
+      DB.submitForm(selectedSchool.id, studentData)
+        .then(() => console.log("✅ Data submitted to Google Sheets"))
+        .catch(e => console.error("❌ Submission error:", e));
+    }
+  }, []); // Empty deps = runs once on mount
+
   // 3. THE GENERATION LOGIC (The "Invisible Clone" Strategy)
   const generateImageBlob = async (): Promise<Blob | null> => {
     if (!posterRef.current || !(window as any).html2canvas) return null;
