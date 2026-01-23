@@ -4,7 +4,7 @@ import { School, Submission, StudentData } from '../types';
 // CONFIGURATION
 // ==========================================
 
-const GOOGLE_SCRIPT_URL: string = "";
+const GOOGLE_SCRIPT_URL: string = "https://script.google.com/macros/s/AKfycby_zgKvm1Pi4M3-kATr7wf_G2rYaVkIoUxfLTyQ8n4KXSuYt45Ot-dKxmR9qUNfJXhYbw/exec";
 const BACKEND_API_URL: string = "";
 
 // ==========================================
