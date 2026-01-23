@@ -31,10 +31,16 @@ const INITIAL_SCHOOLS: School[] = [
         location: "Chennai",
         subLocation: "Neelankarai & Injabakkam",
         icon: "🏫",
-        logoUrl: "/assets/vis_logo.png",
+        logoUrl: "/assets/vis_final.png",
         isActive: true,
         isFeatured: true,
-        templateId: 'tricolor'
+        templateId: 'tricolor',
+        logoPosition: {
+            left: "18.18%",
+            top: "85.73%",
+            width: "24.46%",
+            height: "4.73%"
+        }
     }
 ];
 
