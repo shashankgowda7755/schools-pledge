@@ -64,6 +64,7 @@ export interface Submission {
   timestamp: string;          // ISO 8601 format
   posterGenerated: boolean;   // Always true when created
   posterDownloaded: boolean;  // Tracks if user downloaded
+  optIn?: boolean;            // Tracks user consent for future contact
 }
 
 export interface AppContextType {
