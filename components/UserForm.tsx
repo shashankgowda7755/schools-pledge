@@ -225,11 +225,11 @@ export const UserForm: React.FC<UserFormProps> = ({ userData, setUserData, onBac
           <div className="text-center mb-10 mt-2">
             {selectedSchool && (
               <div className="flex flex-col items-center mb-4 animate-fade-in">
-                <div className="w-16 h-16 bg-orange-50 rounded-full flex items-center justify-center text-3xl mb-2 shadow-sm">
+                <div className="w-48 h-24 flex items-center justify-center mb-4">
                   {selectedSchool.logoUrl ? (
-                    <img src={selectedSchool.logoUrl} alt={selectedSchool.name} className="w-full h-full object-contain rounded-full" />
+                    <img src={selectedSchool.logoUrl} alt={selectedSchool.name} className="w-full h-full object-contain" />
                   ) : (
-                    selectedSchool.icon
+                    <span className="text-4xl">{selectedSchool.icon}</span>
                   )}
                 </div>
                 <span className="text-sm font-bold text-saffron tracking-wider uppercase bg-saffron/5 px-3 py-1 rounded-full">
