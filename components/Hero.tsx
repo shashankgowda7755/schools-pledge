@@ -49,7 +49,7 @@ export const Hero: React.FC<HeroProps> = ({ onStart }) => {
         </h1>
 
         <p className="text-xl md:text-2xl text-stone-500 mb-12 max-w-xl mx-auto font-medium leading-relaxed">
-          My promise for the Indian flag
+          My promise for the Indian Flag
         </p>
 
         {/* CTA Button */}

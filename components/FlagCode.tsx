@@ -97,7 +97,7 @@ export const FlagCode: React.FC = () => {
                     <div className="w-24 h-1 bg-gradient-to-r from-saffron via-stone-200 to-indiaGreen mb-8 border border-stone-200"></div>
 
                     <p className="text-lg text-stone-700 max-w-2xl leading-relaxed">
-                        The Indian flag is governed by the <strong>Flag Code of India, 2002</strong> and the <strong>Prevention of Insults to National Honour Act, 1971</strong>. This section provides complete guidance on how to properly use, respect, store, and dispose of the Indian flag.
+                        The Indian flag is governed by the <strong>Flag Code of India, 2002</strong> and the <strong>Prevention of Insults to National Honour Act, 1971</strong>. This section provides complete guidance on how to properly use, respect, store, and dispose off the Indian flag.
                     </p>
                 </div>
 
@@ -323,7 +323,7 @@ export const FlagCode: React.FC = () => {
                     <section>
                         <h3 className="text-2xl font-bold text-indiaNavy mb-6 flex items-center gap-3">
                             <span className="bg-stone-200 text-stone-700 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">6</span>
-                            How to dispose of a damaged flag
+                            How to dispose off a damaged flag
                         </h3>
                         <p className="text-stone-700 mb-6">Dispose only when ripped, soiled, faded, or not suitable for display.</p>
 

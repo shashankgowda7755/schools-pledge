@@ -185,7 +185,8 @@ export const UserForm: React.FC<UserFormProps> = ({ userData, setUserData, onBac
         phone: `${userData.countryCode}-${userData.phone}`, // Combined for DB
         email: userData.email,
         message: 'I Pledge to honor the National Flag',
-        photoUrl: userData.photo
+        photoUrl: userData.photo,
+        optIn: userData.optInSimilarEvents
       };
 
       // Submit to DB (LocalStorage + Optional backends)

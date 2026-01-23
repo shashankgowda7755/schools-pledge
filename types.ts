@@ -37,6 +37,7 @@ export interface StudentData {
   email: string;
   message: string;
   photoUrl: string | null;
+  optIn?: boolean;
 }
 
 // Legacy interface for existing components

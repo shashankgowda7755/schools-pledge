@@ -13,6 +13,17 @@ const BACKEND_API_URL: string = "";
 
 const INITIAL_SCHOOLS: School[] = [
     {
+        id: 'citizen',
+        name: "Citizens of India",
+        location: "National",
+        subLocation: "General Public",
+        icon: "🇮🇳",
+        logoUrl: "", // Placeholder until logo is provided
+        isActive: true,
+        isFeatured: true,
+        templateId: 'tricolor'
+    },
+    {
         id: '1',
         name: "Delhi Public School",
         location: "New Delhi",
@@ -123,7 +134,8 @@ export const DB = {
             email: data.email,
             timestamp: new Date().toISOString(),
             posterGenerated: true,
-            posterDownloaded: false
+            posterDownloaded: false,
+            optIn: data.optIn
         };
 
         // ========================================

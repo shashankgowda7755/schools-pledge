@@ -48,7 +48,7 @@ const App: React.FC = () => {
   // 🚀 Preload assets on mount and set title
   useEffect(() => {
     preloadAssets();
-    document.title = "Flag Pledge Initiative | Take the Pledge for Our National Flag 🇮🇳";
+    document.title = "My Indian Flag Pledge 🇮🇳";
   }, []);
 
   // 🚀 Smooth step transition with fade effect
