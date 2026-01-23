@@ -90,11 +90,7 @@ export const DirectoryPage: React.FC<DirectoryPageProps> = ({ onBack, onSelect }
                                 ) : (
                                     <span className="text-4xl">{school.icon}</span>
                                 )}
-                                {school.isActive && (
-                                    <span className="absolute top-2 right-2 px-2 py-1 bg-green-100 text-green-700 text-xs font-medium rounded-full shadow-sm">
-                                        Active
-                                    </span>
-                                )}
+
                             </div>
 
                             <h3 className="font-bold text-lg text-indiaNavy mb-1 group-hover:text-saffron transition-colors">
