@@ -22,11 +22,6 @@ const FAQS = [
         source: "thestatesman",
         link: "https://www.thestatesman.com/india/independence-day-2025-tricolour-rules-dos-and-donts-every-indian-must-know-1503470781.html"
     },
-    {
-        question: "Is it illegal to disrespect the flag?",
-        answer: "Yes. Under the Prevention of Insults to National Honour Act, 1971, intentional disrespect (burning, defacing, etc.) in public is a criminal offence punishable by up to 3 years imprisonment, a fine, or both.",
-        source: "mha.gov",
-        link: "https://www.mha.gov.in/en/documents/national-flag-emblem-anthem"
     }
 ];
 
@@ -307,7 +302,9 @@ export const FlagCode: React.FC = () => {
                             <AlertTriangle className="text-saffron" />
                             Warning
                         </h3>
-                        <p className="text-orange-800 text-sm mb-4">Disrespecting the National Flag is a punishable offence by law. Please ensure:</p>
+                        <p className="text-orange-800 text-sm mb-4">
+                            Under the <strong>Prevention of Insults to National Honour Act, 1971</strong>, intentional disrespect (burning, defacing, etc.) in public is a criminal offence punishable by up to 3 years imprisonment, a fine, or both. Please ensure:
+                        </p>
                         <ul className="grid md:grid-cols-2 gap-4">
                             {[
                                 "Do not burn, crush, or damage the flag.",
