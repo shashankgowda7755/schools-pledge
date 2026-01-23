@@ -26,7 +26,7 @@ const INITIAL_SCHOOLS: School[] = [
     },
 
     {
-        id: '4',
+        id: 'vaels',
         name: "Vaels International School",
         location: "Chennai",
         subLocation: "Neelankarai & Injabakkam",
