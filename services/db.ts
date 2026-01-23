@@ -34,13 +34,7 @@ const INITIAL_SCHOOLS: School[] = [
         logoUrl: "/assets/vis_logo.png",
         isActive: true,
         isFeatured: true,
-        templateId: 'tricolor',
-        logoPosition: {
-            left: "18.17%",
-            top: "85.72%",
-            width: "24.46%",
-            height: "4.72%"
-        }
+        templateId: 'tricolor'
     }
 ];
 
