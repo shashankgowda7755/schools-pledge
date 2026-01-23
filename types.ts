@@ -42,6 +42,7 @@ export interface UserData {
   section: string;
   countryCode: string;
   photo: string;
+  optInSimilarEvents?: boolean;
 }
 
 export interface Submission {

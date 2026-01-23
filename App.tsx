@@ -41,7 +41,8 @@ const App: React.FC = () => {
     class: '',
     section: '',
     countryCode: '+91',
-    photo: ''
+    photo: '',
+    optInSimilarEvents: true
   });
 
   // 🚀 Preload assets on mount and set title
