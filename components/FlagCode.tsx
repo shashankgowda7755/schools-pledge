@@ -103,7 +103,7 @@ export const FlagCode: React.FC = () => {
                     <div className="w-24 h-1 bg-gradient-to-r from-saffron via-stone-200 to-indiaGreen mb-8 border border-stone-200"></div>
 
                     <p className="text-lg text-stone-700 max-w-2xl leading-relaxed">
-                        The Indian flag is governed by the <strong>Flag Code of India, 2002</strong> and the <strong>Prevention of Insults to National Honour Act, 1971</strong>. This section provides complete guidance on how to properly use, respect, store, and dispose of the Indian flag in line with official rules.
+                        The Indian flag is governed by the <strong>Flag Code of India, 2002</strong> and the <strong>Prevention of Insults to National Honour Act, 1971</strong>. This section provides complete guidance on how to properly use, respect, store, and dispose of the Indian flag.
                     </p>
                 </div>
 
