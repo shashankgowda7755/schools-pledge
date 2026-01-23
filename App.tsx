@@ -56,7 +56,7 @@ const App: React.FC = () => {
 
     if (schoolParam) {
       const schools = DB.getSchools();
-      const school = schools.find(s => s.id === schoolParam);
+      const school = schools.find(s => s.id === orgParam);
 
       if (school) {
         console.log(`📍 Direct link: Navigating to ${school.name}`);
