@@ -11,7 +11,6 @@ import { PledgeReading } from './components/PledgeReading';
 import { Success } from './components/Success';
 import { PrivacyPolicy } from './components/PrivacyPolicy';
 import { UserData, Step } from './types';
-import { saveUserData } from './services/dataStore';
 import { DB } from './services/db';
 import { useApp } from './context/AppContext';
 
@@ -49,7 +48,22 @@ const App: React.FC = () => {
   useEffect(() => {
     preloadAssets();
     document.title = "My Indian Flag Pledge 🇮🇳";
-  }, []);
+
+    // 🔗 Check for direct org link parameter
+    const urlParams = new URLSearchParams(window.location.search);
+    const orgParam = urlParams.get('org');
+
+    if (orgParam) {
+      const schools = DB.getSchools();
+      const school = schools.find(s => s.id === orgParam);
+
+      if (school) {
+        console.log(`📍 Direct link: Navigating to ${school.name}`);
+        setSelectedSchool(school);
+        setTimeout(() => setCurrentStep(Step.Form), 100);
+      }
+    }
+  }, [setSelectedSchool]);
 
   // 🚀 Smooth step transition with fade effect
   const goToStep = useCallback((step: Step) => {
@@ -83,7 +97,7 @@ const App: React.FC = () => {
 
   const handlePledgeConfirm = async () => {
     setIsTransitioning(true);
-    await saveUserData(userData);
+    // Data is submitted in the Success component via DB.submitForm
     runAfterPaint(() => {
       setCurrentStep(Step.Success);
       window.scrollTo(0, 0);
