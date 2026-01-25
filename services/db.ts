@@ -108,9 +108,9 @@ const INITIAL_SCHOOLS: School[] = [
         isFeatured: true,
         templateId: 'tricolor',
         logoPosition: {
-            left: "14.00%",
+            left: "16.50%",
             top: "85.80%",
-            width: "32.00%",
+            width: "30.00%",
             height: "auto"
         }
     },
@@ -167,8 +167,44 @@ const INITIAL_SCHOOLS: School[] = [
             width: "17.76%",
             height: "auto"
         }
+    },
+    {
+        id: '1',
+        name: "Mount Seena",
+        location: "Coimbatore",
+        subLocation: "",
+        icon: "🏫",
+        logoUrl: "/assets/mount.png",
+        posterLogoUrl: "/assets/mount.png",
+        isActive: true,
+        isFeatured: true,
+        templateId: 'tricolor',
+        logoPosition: {
+            left: "28.05%",
+            top: "82.73%",
+            width: "17.76%",
+            height: "auto"
+        }
+    },
+    {
+        id: 'patrician-college',
+        name: "Patrician College of Arts and Science",
+        location: "Chennai",
+        subLocation: "",
+        icon: "🎓",
+        logoUrl: "/assets/petrcia.png",
+        posterLogoUrl: "/assets/petrcia.png",
+        isActive: true,
+        isFeatured: true,
+        templateId: 'tricolor',
+        logoPosition: {
+            left: "28.05%",
+            top: "82.73%",
+            width: "17.76%",
+            height: "auto"
+        }
     }
-]; // Modern Medical Technologies added
+]; // Patrician College added
 
 const STORAGE_KEYS = {
     SCHOOLS: 'communitree_schools',
