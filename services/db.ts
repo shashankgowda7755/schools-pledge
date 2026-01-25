@@ -13,7 +13,7 @@ const BACKEND_API_URL: string = "";
 
 const INITIAL_SCHOOLS: School[] = [
     {
-        id: 'citizen',
+        id: 'public',
         name: "My Pledge for India",
         location: "National",
         subLocation: "General Public",
@@ -61,7 +61,7 @@ const INITIAL_SCHOOLS: School[] = [
         }
     },
     {
-        id: 'pachaiyappas',
+        id: 'pachaiyappas-college',
         name: "Pachaiyappa's College for Men",
         location: "Kanchipuram",
         subLocation: "",
@@ -79,7 +79,7 @@ const INITIAL_SCHOOLS: School[] = [
         }
     },
     {
-        id: 'hindustan-uni',
+        id: 'hindustan-institutions',
         name: "Hindustan Institute of technology and science",
         location: "Chennai",
         subLocation: "",
@@ -97,7 +97,7 @@ const INITIAL_SCHOOLS: School[] = [
         }
     },
     {
-        id: 'hindustan-intl',
+        id: 'hindustan-school',
         name: "Hindustan International School",
         location: "Chennai",
         subLocation: "",
@@ -115,7 +115,7 @@ const INITIAL_SCHOOLS: School[] = [
         }
     },
     {
-        id: 'kcg-tech',
+        id: 'kcg-college',
         name: "KCG College of Technology",
         location: "Chennai",
         subLocation: "",

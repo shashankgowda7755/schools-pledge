@@ -65,7 +65,7 @@ export const Success: React.FC<SuccessProps> = ({ userData, onReset }) => {
 
       // Calculate height based on aspect ratio
       // Public: 1080x1300 | School: 1080x1600
-      const isPublic = selectedSchool?.id === 'citizen';
+      const isPublic = selectedSchool?.id === 'public';
       const aspectRatio = isPublic ? (1300 / 1080) : (1600 / 1080);
       clone.style.height = `${800 * aspectRatio}px`;
       clone.style.transform = 'none'; // Remove any CSS scaling

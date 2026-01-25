@@ -16,7 +16,7 @@ interface PosterProps {
 }
 
 export const Poster: React.FC<PosterProps> = ({ id, userData, school, className = '', showPlaceholderText = true }) => {
-  const isPublic = school?.id === 'citizen';
+  const isPublic = school?.id === 'public';
 
   return (
     <div
