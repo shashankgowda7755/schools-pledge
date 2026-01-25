@@ -153,7 +153,7 @@ const INITIAL_SCHOOLS: School[] = [
 
     {
         id: '1',
-        name: "Mount Seena",
+        name: "Mount Seena School",
         location: "Coimbatore",
         subLocation: "",
         icon: "🏫",
@@ -164,7 +164,7 @@ const INITIAL_SCHOOLS: School[] = [
         templateId: 'tricolor',
         logoPosition: {
             left: "32.00%",
-            top: "84.00%",
+            top: "86.00%",
             width: "12.00%",
             height: "auto"
         }
@@ -199,9 +199,9 @@ const INITIAL_SCHOOLS: School[] = [
         isFeatured: true,
         templateId: 'tricolor',
         logoPosition: {
-            left: "28.05%",
-            top: "82.73%",
-            width: "17.76%",
+            left: "32.00%",
+            top: "84.73%",
+            width: "13.00%",
             height: "auto"
         }
     },
@@ -235,7 +235,7 @@ const INITIAL_SCHOOLS: School[] = [
         isFeatured: true,
         templateId: 'tricolor',
         logoPosition: {
-            left: "28.00%",
+            left: "25.50%",
             top: "86.00%",
             width: "20.00%",
             height: "auto"
