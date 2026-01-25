@@ -135,7 +135,7 @@ const INITIAL_SCHOOLS: School[] = [
     {
         id: 'SIVET_College',
         name: "SIVET College",
-        location: "Gowrivakkam, Chennai",
+        location: "GOWRIVAKKAM, CHENNAI",
         subLocation: "",
         icon: "🎓",
         logoUrl: "/assets/sivet_college.png",
@@ -144,9 +144,9 @@ const INITIAL_SCHOOLS: School[] = [
         isFeatured: true,
         templateId: 'tricolor',
         logoPosition: {
-            left: "34.90%",
+            left: "34.00%",
             top: "85.73%",
-            width: "7.75%",
+            width: "10.00%",
             height: "auto"
         }
     }
