@@ -299,6 +299,24 @@ const INITIAL_SCHOOLS: School[] = [
         }
     },
 
+    {
+        id: '88',
+        name: "Rotary Club Smart city Coimbatore",
+        location: "Coimbatore",
+        subLocation: "",
+        icon: "🤝",
+        logoUrl: "/assets/r.png",
+        posterLogoUrl: "/assets/r.png",
+        isActive: true,
+        isFeatured: true,
+        templateId: 'tricolor',
+        logoPosition: {
+            left: "32.00%",
+            top: "83.00%",
+            width: "12.00%",
+            height: "auto"
+        }
+    },
 ]; // Patrician College added
 
 const STORAGE_KEYS = {
