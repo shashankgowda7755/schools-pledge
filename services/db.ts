@@ -37,7 +37,7 @@ const INITIAL_SCHOOLS: School[] = [
         templateId: 'tricolor',
         logoPosition: {
             left: "16.41%",
-            top: "85.55%",
+            top: "83.00%",
             width: "28.00%",
             height: "5.40%"
         }
@@ -294,6 +294,24 @@ const INITIAL_SCHOOLS: School[] = [
         logoPosition: {
             left: "31.00%",
             top: "84.20%",
+            width: "12.00%",
+            height: "auto"
+        }
+    },
+    {
+        id: '88',
+        name: "Rotary Club Smart city Coimbatore",
+        location: "Coimbatore",
+        subLocation: "",
+        icon: "🤝",
+        logoUrl: "/assets/r.png",
+        posterLogoUrl: "/assets/r.png",
+        isActive: true,
+        isFeatured: true,
+        templateId: 'tricolor',
+        logoPosition: {
+            left: "32.00%",
+            top: "85.00%",
             width: "12.00%",
             height: "auto"
         }
